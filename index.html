@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1><i class="bi bi-umbrella"></i>Weather App</h1>
+        <input type="text" placeholder="Search City" id="SearchCity">
+        <p class="errorMsg"></p>
+
+        <div class="wrapper">
+            <div>
+                <p>Miejsce: </p>
+                <i class="bi bi-bank"></i>
+                <h2 id="City"> </h2>
+            </div>
+
+            <div>
+                <p>Temperatura:</p>
+                <i class="bi bi-thermometer-half"></i>
+                <h2 id="Temp"></h2>
+            </div>
+
+            <div>
+                <p>Wilgotność:</p>
+                <i class="bi bi-moisture"></i>
+                <h2 id="Humidity"></h2>
+            </div>
+            
+            <div>
+                <p>Prędkość wiatru:</p>
+                <i class="bi bi-wind"></i>
+                <h2 id="WindSpeed"></h2>
+            </div>
+
+            <div>
+                <p>Zachmurzenie:</p>
+                <i class="bi bi-cloud"></i>
+                <h2 id="Clouds"></h2>
+            </div>
+
+            <div>
+                <p>Temperatura odczuwalna:</p>
+                <i class="bi bi-thermometer-snow"></i>
+                <h2 id="FeelsLikeTemp"></h2>
+            </div>
+          
+        </div>
+
+        <div class="placeholderWrapper">
+            <h2>Wpisz miasto</h2>
+            <img width="250px" src="./placeholderImg.jpg" alt="pokaż pogodę">
+        </div>
+
+  
+
+
+
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+<!-- 1. WYCIĄGAMY JESZCZE KILKA INFORMACJI NA TEMAT POGODY, 
+OPIS, ODCZUWALNA 
+TEMPERATURA, KIERUNEK WIATRU ITD -->
+<!-- 2. POBIERAMY ŁADNĄ CZCIONKĘ -->
+<!-- 3. STYLUJEMY NAJLEPIEJ JAK POTRAFIMY, PEŁNA DOWOLNOŚĆ
+BOOTSTRAP, CSS LUB SCSS -->
